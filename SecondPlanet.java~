@@ -1,0 +1,30 @@
+
+public class SecondPlanet extends MainGame {
+
+	 public static void main(String[] args) {
+		
+	   new SecondPlanet(fuelPoints);
+
+	}
+	
+	public SecondPlanet(int f) {
+		System.out.println("Fuel points is " + f);
+		board();
+	}
+	
+	@Override
+	public void board() {
+		System.out.println("  1   2   3");
+		System.out.println("1  " +     a +    " | " +    b +     " | "    +    c);
+		System.out.println("---------------------------------------");
+		System.out.println("2  " +     d +    " | " +    e +     " | "    +    f );
+		System.out.println("----------------------------------------");
+		System.out.println("3  " +     g +    " | " +    h +     " | "    +    g );
+	}
+	
+	
+	public int getFuelPoints() {
+		return fuelPoints;
+	}
+
+}
